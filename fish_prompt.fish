@@ -27,7 +27,7 @@ function fish_prompt
   set -l green (set_color -o green)
   set -l normal (set_color normal)
 
-  set -l cwd $cyan(basename (prompt_pwd))
+  set -l cwd $cyan(basename (pwd))
 
   # output the prompt, left to right:
   # display 'user@host:'
